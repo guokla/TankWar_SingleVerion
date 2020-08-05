@@ -15,7 +15,7 @@ public class TankBase : MonoBehaviour
 	public Ctltype ctlType = Ctltype.player;
 
 	// 生命值/最大生命值
-	private float maxHp = 1500;
+	private float maxHp = 100;
 	public float hp;
 
     // 轮轴

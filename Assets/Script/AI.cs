@@ -110,8 +110,8 @@ public class AI : MonoBehaviour
 			if (count == 0) return;
 			int index = Random.Range(0, count);
 			Vector3 targetPos = obj.transform.GetChild(index).position;
-			//targetPos.y = transform.Find("/Terrain").GetComponent<Terrain>().SampleHeight(targetPos);
-			Debug.DrawLine(transform.position, targetPos, Color.green, 2f);
+
+			Debug.DrawLine(transform.position + 2 * Vector3.up, targetPos + 2 * Vector3.up, Color.green, 2f);
 			path.InitByNavMeshPath(transform.position, targetPos);
 		}
 

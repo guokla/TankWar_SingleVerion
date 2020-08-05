@@ -87,7 +87,7 @@ public class Bullet : MonoBehaviour
 	public float GetDamage()
 	{
 		// 伤害与飞行时间相关
-		float damage = 100 - (Time.time - instaniateTime) * 40f;
+		float damage = 10f - (Time.time - instaniateTime) * 4f;
 
 		// 限制伤害范围
 		return Mathf.Max(damage, 1f);

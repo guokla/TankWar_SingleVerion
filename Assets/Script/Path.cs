@@ -113,7 +113,7 @@ public class Path
 
 			// 计算路径
 			hasFoundPath = NavMesh.CalculatePath(pos, targetPos, NavMesh.AllAreas, navPath);
-			Debug.DrawLine(pos, fixPos, Color.red, 2f);
+			Debug.DrawLine(pos + 2 * Vector3.up, fixPos + 2 * Vector3.up, Color.red, 2f);
 			if (hasFoundPath) break;
 		}
 

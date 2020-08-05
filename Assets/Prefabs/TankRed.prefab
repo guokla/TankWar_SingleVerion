@@ -3582,7 +3582,7 @@ MonoBehaviour:
     steering: 0
   maxMotorTorque: 120
   maxBrakeTorque: 150
-  maxSteeringAngle: 10
+  maxSteeringAngle: 60
   turret: {fileID: 0}
   motorClip: {fileID: 8300000, guid: 22852df77d4952f498d778fd1a4d3288, type: 3}
   destroyEffect: {fileID: 8682292642317767322, guid: f3ebc7d51871b1741a7b176b925cd251,
